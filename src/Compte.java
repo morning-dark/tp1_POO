@@ -1,4 +1,4 @@
-public class Compte {
+public abstract class Compte {
     private int code ;
     private double solde ;
     //private static int nbrCompte ;
