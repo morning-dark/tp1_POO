@@ -13,8 +13,15 @@ public class CompteSimple extends Compte{
 
     @Override
     public void retirer(double somme) {
-        if(somme <= solde + decouvert){
-            solde-=somme;
+        if(somme <= getSolde() + decouvert){
+            setSolde(getSolde() -somme);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "CompteSimple{" +
+                "decouvert=" + decouvert +
+                "} " + super.toString();
     }
 }

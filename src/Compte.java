@@ -1,7 +1,24 @@
 public class Compte {
     private int code ;
-    protected double solde ;
+    private double solde ;
     //private static int nbrCompte ;
+
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public double getSolde() {
+        return solde;
+    }
+
+    public void setSolde(double solde) {
+        this.solde = solde;
+    }
+
+    public int getCode() {
+        return code;
+    }
 
     public Compte() {
         code = 1;
