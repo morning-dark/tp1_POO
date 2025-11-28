@@ -23,6 +23,18 @@ L'objectif principal est de modéliser un système de gestion de comptes bancair
 - **Paradigme:** Programmation Orientée Objet (POO).
 - **Environnement:** Projet Java standard (sans framework spécifique, probablement exécuté via un IDE comme IntelliJ ou Eclipse).
 
+## Structure du Projet
+
+```bash
+tp1_POO/
+├── src/
+│   ├── Compte.java         # Classe de base pour un compte
+│   ├── CompteEpargne.java  # Classe héritant de Compte (Compte Épargne)
+│   ├── CompteSimple.java   # Classe héritant de Compte (Compte Simple)
+│   └── Programme.java      # Point d'entrée pour tester les classes
+└── ... (fichiers de configuration IDE)
+```
+
 ## Installation et Exécution
 
 ### Prérequis
